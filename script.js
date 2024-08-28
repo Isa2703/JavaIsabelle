@@ -7,7 +7,7 @@ const texto_Resultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: " É necessário conhecermos como funciona o psicológico de uma criança?",
+        enunciado: "É necessário conhecermos como funciona o psicológico de uma criança?",
         alternativas: [
             {
                 texto: "Não, não me preocupo com isso",
@@ -24,34 +24,34 @@ const perguntas = [
     },
 
     {
-        enunciado: " Será que o acompanhamento psicologico des de cedo pode influenciar positivamente no futuro de uma pessoa?",
+        enunciado: "Será que o acompanhamento psicologico des de cedo pode influenciar positivamente no futuro de uma pessoa?",
         alternativas: [
             {
                 texto: "Não, não acho que seria necessário. ",
-                afirmacao: " Acredito que crinças não precisam de um acompanhamento pois aprendem com as situações que vivem diariamente."
+                afirmacao: " Acredito que crinças não precisam de um acompanhamento pois não vivem situações consideralvemente importantes."
             },
 
             {
                 texto: "Sim, acredito que seria importante para um bom crescimento.",
                 afirmacao: " O acompanhamento des da infância ensina a criança a lidar com as suas frustaçẽs diarias, entendendo seu sentimenos e a preparando para uma vida adulta mais tranquila."
-            }
+            },
         ]
     },
 
     {
-        enunciado: " Você acha que se a geração anterior tivesse recebido a mesma atençao e importancia psicológica, hoje em dia as visoẽs, reações e até mesmosa as  opnioẽs dessas pessoas seriam diferentes em algumas situaçoẽs?",
+        enunciado: "Você acha que se a geração anterior tivesse recebido a mesma atençao e importancia psicológica, hoje em dia as ações, reações e até mesmosa as  opnioẽs dessas pessoas seriam diferentes em algumas situaçoẽs?",
         alternativas: [
             {
                 texto: " Não acho, as pessoas tem suas próprias opniẽs e visões que vem do seu caráter criadas por conta própria.",
-                afirmacao: " Acredito que a partir do momento em que as pessoas crescem, elas tomam a liberdade de escolherem no que acreditam e defendem, sem influencias anteriores."
+                afirmacao: " Acredito que a partir do momento em que as pessoas crescem, elas tomam a liberdade de escolherem no que acreditam e defendem, sem influencias anteriores,que podem mudar quando quiserem."
             },
 
             {
                 texto: " Com certeza, a importancia do autoconhecimento psicológico é importante para poder compreender os acontecimentos diarios.",
                 afirmacao: " Dar a devida atenção ao conhecimento psicológico é importante para que possamos entender todos os lados de uma situação para assim então podermos tirar nossas conclusoẽs sem dúvidas e sem medo."
-            }
+            },
         ]
-    }
+    },
 ];
 
 let perg_atual = 0;
