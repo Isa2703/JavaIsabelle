@@ -19,7 +19,7 @@ const perguntas = [
                 texto: "Sim, com toda a certeza!",
                 afirmação: " Entender como funciona a mente de uma criança é se preocupar com ela na vida adulta, ajudar a criança a enteder como lidar, respeitar,e entender como pode tornara a vida relativamente mais facil é necessario para um futuro com pessoas melhores e felizes",
 
-            },
+            }
         ]
     },
 
@@ -34,7 +34,7 @@ const perguntas = [
             {
                 texto: "Sim, acredito que seria importante para um bom crescimento.",
                 afirmacao: " O acompanhamento des da infância ensina a criança a lidar com as suas frustaçẽs diarias, entendendo seu sentimenos e a preparando para uma vida adulta mais tranquila."
-            },
+            }
         ]
     },
 
@@ -49,9 +49,9 @@ const perguntas = [
             {
                 texto: " Com certeza, a importancia do autoconhecimento psicológico é importante para poder compreender os acontecimentos diarios.",
                 afirmacao: " Dar a devida atenção ao conhecimento psicológico é importante para que possamos entender todos os lados de uma situação para assim então podermos tirar nossas conclusoẽs sem dúvidas e sem medo."
-            },
+            }
         ]
-    },
+    }
 ];
 
 let perg_atual = 0;
